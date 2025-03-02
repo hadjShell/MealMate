@@ -1,8 +1,8 @@
-MealMate: AI-Powered Nutrition and Meal Planning App
+## MealMate: AI-Powered Nutrition and Meal Planning App
 
 MealMate is an innovative, AI-driven nutrition and meal planning application designed to help users make informed dietary choices, plan meals, and achieve their health goals. With features like personalized meal recommendations, smart shopping lists, and an interactive AI chat assistant, MealMate makes healthy eating easier and more accessible than ever.
 
-Features
+### Features
 	•	AI-Powered Meal Recommendations:
 Get personalized meal suggestions based on your dietary preferences, health goals, and nutritional needs.
 	•	Interactive AI Chat Assistant:
@@ -16,20 +16,20 @@ Set your dietary preferences, allergies, and health goals for a tailored experie
 	•	Recipe Database:
 Access a wide variety of healthy recipes with detailed nutritional information and cooking instructions.
 
-Tech Stack
+### Tech Stack
 	•	Frontend: Next.js 13 with App Router, React, TypeScript
 	•	UI Components: shadcn/ui, Tailwind CSS
 	•	State Management: React Hooks (useState, useEffect)
 	•	Animations: Framer Motion
 	•	Icons: Lucide React
 
-Getting Started
+### Getting Started
 
-Prerequisites
+#### Prerequisites
 	•	Node.js (v14 or later)
 	•	npm or yarn
 
-Installation
+#### Installation
 	1.	Clone the Repository:
 
 git clone <repository-url>
@@ -48,7 +48,7 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 	Important: Do not commit your .env file to version control to keep your credentials secure.
 
-Running in Development
+#### Running in Development
 
 Start the development server with:
 
@@ -96,7 +96,7 @@ Compiles the application for production.
 	•	npm run start
 Starts the production server after the build.
 
-Experimental Features
+#### Experimental Features
 
 MealMate currently leverages several experimental features in Next.js:
 	•	webpackBuildWorker:
